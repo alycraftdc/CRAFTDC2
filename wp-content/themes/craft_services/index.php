@@ -395,7 +395,7 @@ echo '<div id="work" class="row">
                 <div class="row">';
 $work = array(
     'post_type' => 'work',
-    'posts_per_page' => '-1',
+    'posts_per_page' => '4',
     'orderby' => 'ID',
     'order' => 'ASC'
 );
@@ -421,6 +421,7 @@ echo '</div>';
 $i++;
 endwhile; endif;
 echo '</div></div>
+				<center><a href="work"><img class="work-more" src="'.get_stylesheet_directory_uri().'/assets/images/see-more-work-btn-2x.png" border="0" alt="See More Work"></a></center>
         </div></div></div>'.PHP_EOL;
         
 ### CONTACT

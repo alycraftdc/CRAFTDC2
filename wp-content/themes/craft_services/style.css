@@ -688,6 +688,10 @@ i#nav-x { font-size: 30px; color: #fff; }
 #work .icon img {
 	max-width: 100%;
 }
+#work img.work-more {
+	width: 400px;
+	margin: 30px auto;
+}
 #contact {
 	position: relative;
   overflow: hidden;
@@ -1046,6 +1050,9 @@ body.archive .widget ul { list-style: none; margin-top: 20px; }
 body.archive .widget ul li a { font-family: "Source Sans Pro"; font-size: 16px; text-transform: none; color: #2e3e4a; }
 body.archive .widget ul li a:hover { text-decoration: none; color: #ff0dd0; }
 
+/* Our Work Page */
+body.post-type-archive-work .container-full { margin-bottom: 0; }
+
 ul.social { list-style: none; margin: 20px auto 0 auto; text-align: center; }
 ul.social li { display: inline; }
 
@@ -1065,6 +1072,8 @@ div#gform_confirmation_message_1 { font-size: 30px; line-height: 1; margin: 20px
 .pagination { width: 100%; text-align: center; }
 a.page-numbers { margin-left: 10px; }
 span.page-numbers.current { margin-left: 10px; }
+
+.nopadding { padding-left: 0 !important; padding-right: 0 !important; }
 
 @media screen and (min-width: 1200px) {
 	#focus .slant { font-size: 40px; }
