@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'ideomaSPRAY';
+  src: url('ideoma_spray-webfont.eot');
+  src: url('ideoma_spray-webfont.eot?#iefix') format('embedded-opentype'),
+       url('ideoma_spray-webfont.woff2') format('woff2'),
+       url('ideoma_spray-webfont.woff') format('woff'),
+       url('ideoma_spray-webfont.ttf') format('truetype'),
+       url('ideoma_spray-webfont.svg#ideoma_sprayregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

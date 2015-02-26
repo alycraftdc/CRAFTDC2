@@ -1,0 +1,1 @@
+try{Typekit.load();}catch(e){ console.log(e); }
