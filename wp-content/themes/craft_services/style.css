@@ -16,18 +16,20 @@ a { color: #ff0dd0; }
 a:hover { color: #09b9ff; text-decoration: none; }
 a:focus, button:focus { outline: none !important; text-decoration: none; }
 
-/* Homepage Navbar */
+/* Reset Default Bootstrap Nav */
 .navbar { margin-bottom: 0; }
-#nav-wrapper { position: fixed; top: 0; z-index: 1039; width: 100%; }
 .navbar-default { border: none; background-color: transparent; border-radius: 0; }
-.home .navbar-header { background-color: #21c0ff; height: 50px; width: 100%; display: table; }
-#logo { padding-left: 0; }
-#logo h1 { float: left; padding-left: 0; padding-top: 13px; font-family: "ideomaSpray"; font-size: 33px; color: #FFF; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 .navbar-collapse { box-shadow: none; }
 .navbar-collapse.collapse { box-shadow: none; border: none; }
 .navbar-toggle { padding: 8px; margin-right: 10px; }
-#navbar { padding-left: 0; padding-right: 0; background-color: rgba(255,255,255,0.9); border: none; }
 .navbar-nav { margin-top: 0 !important; }
+
+/* Homepage Navbar */
+#nav-wrapper { position: fixed; top: 0; z-index: 1039; width: 100%; }
+.home .navbar-header { background-color: #21c0ff; height: 50px; width: 100%; display: table; }
+#logo { padding-left: 0; }
+#logo h1 { float: left; padding-left: 0; padding-top: 13px; font-family: "ideomaSpray"; font-size: 33px; color: #FFF; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+#navbar { padding-left: 0; padding-right: 0; background-color: rgba(255,255,255,0.9); border: none; }
 #navigation { padding-left: 0; padding-right: 0; box-sizing: border-box; }
 #navigation ul#sticky li a { padding: 1.35vw 0; font-family: "Source Sans Pro"; font-size: 3vw; font-weight: 900; font-style: italic; color: #ff0dd0; text-align: center; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 #nav { padding-left: 20px; padding-right: 0; }
@@ -38,6 +40,7 @@ a:focus, button:focus { outline: none !important; text-decoration: none; }
 #navigation ul#sticky li a:hover { color: #fff; }
 i#nav-bars { font-size: 30px; color: #fff; }
 i#nav-x { font-size: 30px; color: #fff; }
+
 /* Inner Page Navbar */
 .navbar-header { background-color: #ff0dd0; }
 
